@@ -3,7 +3,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: './app/app.js',
   output: {path: __dirname + '/output', filename: 'bundle.js' },
-  devtool: 'source-map',
+
   module: {
     loaders: [
       {
@@ -13,11 +13,7 @@ module.exports = {
         query: {
           presets: ['env', 'react']
         }
-      },
-      {
-        test: /\.(css)$/,
-        loader: 'style-loader!css-loader'
-      },
+      }
     ]
   },
 };

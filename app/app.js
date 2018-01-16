@@ -1,12 +1,9 @@
+//CSS
+import 'bootstrap/dist/css/bootstrap.css';
+//
 import React from 'react';
 import ReactDOM from 'react-dom';
- 
-var HelloBox = () => {
-    return (
-       <div className="helloTag">
-      Hello world from ReactJS
-      </div>
-    );
-};
- 
-ReactDOM.render(<HelloBox/>, document.getElementById('helloTag'));
+import Cocoui from './components/cocoui';
+
+//render the layout
+ReactDOM.render(<Cocoui />, document.getElementById('app'));
