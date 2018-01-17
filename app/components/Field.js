@@ -2,10 +2,10 @@ import React from 'react';
 
 class Field extends React.Component {
   render() {
-    let xmin = -22;
+    let xmin = -44;
     let ymin = -22;
-    let xmax = 3022;
-    let ymax = 2022;
+    let xmax = 3044;
+    let ymax = 2252;
 
     const margin = 200;
 
